@@ -1,0 +1,91 @@
+#intro,#about,#skill,#portfolio,#contact{height:100%; position:relative; background:no-repeat center center; background-size:cover; overflow: hidden;}
+div>section{position: absolute; top:55%; left:50%; transform:translateX(-50%) translateY(-50%); width:1200px; height:650px; padding:53px 43px; box-sizing:border-box; z-index: 1000;}
+div>section>h2{text-align:center; font-size:40px; color:#333;}
+#intro{background-image:url(../img/bg1.jpg);}
+#intro>section{background-color:rgb(189,51,9); background-color:rgba(189,51,9,.7); text-align:center; box-sizing:border-box; padding: 150px 0; overflow:hidden;}
+#intro>section>h2,#intro>section>p,#intro>section>span{color:#fff;}
+#intro>section>h2{position:absolute;top:-50px; left:50%; transform:translateX(-50%); font-size:22px; animation:intro1 2s 2s; animation-fill-mode: forwards;}
+#intro>section>p{position:absolute; bottom:-50px; left:50%; transform:translateX(-50%); font-size:22px; animation:intro2 2s 3s; animation-fill-mode: forwards;}
+#intro>section>span{display:block; font-size:50px; margin:120px 0;}
+
+@keyframes intro1{
+    0%{top:-50px;}
+    100%{top:30%;}
+}
+@keyframes intro2{
+    0%{bottom:-50px;}
+    100%{bottom:30%;}
+}
+
+#about{background-image:url(../img/bg2.jpg);}
+#about>section{background:rgb(255,255,255);background:rgba(255,255,255,.9);}
+#about>section>img,.pie_wrap,.pie_wrap>div{float: left;}
+#about>section>img{width:19%;}
+.pie_wrap{width:81%;}
+.pie_wrap>div{width:16.3333%; margin-top: 55px;}
+.pie-title-center {position: relative; text-align: center;}
+.demo-pie-1>span{display:block; position: absolute; font-size:12px; font-weight:bold; color:#fff; left: 50%; transform:translateX(-50%);}
+.pie-value{height: 40px; top: 50%;  margin-top: -10px; line-height: 40px;}
+.pie-skill{top:25px;}
+.demo-pie-1 canvas{background:url(../img/pie.png) no-repeat center center;}
+.about_content{margin-top:300px;}
+.about_content>li{float:left; width: 25%; transition: .5s;}
+.about_content>li>p{font-size:13px; color:#333; line-height: 50px; margin-left:50px;}
+.about_content>li>p>span{font-weight:bold;  font-size:18px;}
+
+#skill{background-image:url(../img/bg3.jpg);}
+#skill>section{background:rgb(174,166,153);background:rgba(174,166,153,.7);}
+#skill>section>h2{color:#fff;}
+#demo-pie-2{margin-top: 55px;}
+#demo-pie-2 canvas{background:url(../img/pie2.png) no-repeat center center;}
+#demo-pie-2>div{width:33.3333%; float:left;}
+#demo-pie-2>div>span{display:block; position: absolute; font-size:16px; font-weight:bold; color:#fff; left: 50%; transform:translateX(-50%);}
+#demo-pie-2>div>.pie-value{height: 40px; top: 53%;  margin-top: -10px; line-height: 40px;}
+#demo-pie-2>div>.pie-skill{top:50px;}
+#demo-pie-2>div:nth-child(3)~div{margin-top: 70px;}
+
+
+#portfolio{background-image:url(../img/bg4.jpg);}
+.owl-nav{margin-top:60px; text-align:center; position: relative;}
+.owl-carousel .owl-nav button.owl-prev{width:20px; height:28px; background:url(../img/prev.png); margin-right: 40px;}
+.owl-carousel .owl-nav button.owl-next{width:20px; height:28px; background:url(../img/next.png); margin-left: 40px;}
+.detail{position:absolute; top:0px; left:50%; margin-left: -15.5px; text-indent:-9999em; border:none; background:url(../img/detail.png); width:37px; height:31px; padding: 0;}
+#portfolio>section{background:rgb(232, 232, 232);background:rgba(232, 232, 232,.8);}
+.k_nam_on,.k_sam_on,.k_gw_on{display:none; position:absolute; left:0px; top:0px; width:100%; height:100%; background:#eee; border-radius:40px; padding:53px 43px; box-sizing:border-box; z-index:900;}
+#portfolio ul>li{float:left; width: 50%;}
+#portfolio ul>li:nth-child(1){text-align:center;}
+#portfolio ul>li>a{display:inline-block; margin-top: 30px; line-height:50px; width:30%; text-align:center; background:#aaa; color:#fff; font-size:16px; font-weight:bold;}
+#portfolio ul>li>a:nth-of-type(2){margin:0 20px;}
+#portfolio .k_sam_on ul>li>a{width:48%}
+#portfolio .k_sam_on ul>li>a:nth-of-type(2),
+#portfolio .k_sam_on ul>li>a:nth-of-type(4){margin-right:0; margin-left:2%}
+#portfolio ul>li>p{padding-left:40px; margin-bottom:20px; line-height:33px; font-size:16px;}
+#portfolio ul>li p>span{display:block; font-weight:bold;}
+.k_gw_nam_on ul>li:nth-child(1){text-align: center;}
+#overay{position:fixed; width:100%; height:100%; left:0; top:0; background:rgba(0,0,0,.7);z-index:800}
+.btn_close{position: absolute; bottom: 50px; right: 50px; width: 28px; height: 28px; background: url(../img/btn_close.png) no-repeat center center; text-indent: -9999em;  border: none;}
+
+#contact{background-image:url(../img/bg5.jpg);}
+#contact>section{background:#362f2d; width: 563px; height:591px; border-radius:20px; top: 60%; padding-top:17px; padding-bottom:17px;}
+#contact>section>h2{position:absolute; left:50%; transform:translateX(-50%); top:-15%; color: #fff; letter-spacing:0.2em;}
+#contact legend{text-align: center; font-size: 30px; color:#fff;}
+.k_label{color:#fff; width: 25%;}
+.k_input{width: 75%;}
+.k_input input{box-sizing: border-box; height: 30px; width: 100%; font-size: 15px; background: rgba(255,255,255,0.2); border: 1px solid #ccc;}
+#contact tr{margin-bottom:20px;}
+.contact_wrap>h2{ text-align:center; margin:0 0 20px 0; color:#777;}
+.contact_wrap h3{ text-align: center; font-size: 30px; color: #fff; margin-bottom:10px;}
+.contact_wrap table{width:100%; color:#555; font-size:1.1em;}
+.contact_wrap table td{height:50px;}
+.contact_wrap input{border:1px solid #ccc; color:#666;}
+.td_label{width:20%; vertical-align: middle; color:#fff;}
+.td_box{width:80%;}
+.td_box input{box-sizing:border-box; height:35px; width:100%;}
+.td_box textarea{box-sizing:border-box; width:100%; height:150px; margin:5px 0; text-align:left; border:1px solid #ccc;}
+.info_agree{overflow:auto; box-sizing:border-box; width:100%; height:100px; padding:10px; margin:5px 0; border:1px solid #ccc; color:#fff;}
+.contact_wrap .agree{text-align:center; height:35px; color: #fff;}
+.agree>input, .agree>label{border:none; vertical-align:middle;}
+.send{text-align:center;}
+.send>input{width:130px; height:35px; color:#fff; background-color: transparent; border:1px solid #ccc; color:#eee; transition-duration:.5s;}
+.send>input:hover{background:#888; color:#fff; border:1px solid #333;}
+.required{color:#f25757;}
