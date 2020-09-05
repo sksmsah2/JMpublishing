@@ -1,2 +1,2 @@
 # JMpublishing
-[http://jungpublishing.com/](http://jungpublishing.com/).
+[https://sksmsah2.github.io/JMpublishing/](https://sksmsah2.github.io/JMpublishing/)
