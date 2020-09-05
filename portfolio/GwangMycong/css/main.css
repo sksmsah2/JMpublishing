@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+#container{margin-top:86px; padding-top:60px; background:#f5f5f5;}
+.contents1{padding-bottom:60px;}
+.contents1>div>section{float:left;}
+.mb_wrap{max-width:600px; width:100%; max-height:391px; height:391px; border-radius:0 0 10px 10px; margin-right:27px;}
+.mb>div{position:relative; height:391px;}
+.mb>div>div{display:none; position:absolute; left:0; bottom:0; color:#fff; background:rgb(0,0,0); background:rgba(0,0,0,0.4); width:100%; width:calc(100% - 20px);  padding: 10px 0 10px 20px; border-radius:0 10px 10px 10px;    z-index: 9999;}
+.mb>div>div>h2{font-size:1.2em; font-family: 'NanumSquareRound',sans-serif; font-weight: bold;}
+.mb>div>div>a{position:absolute; right:20px; bottom:20px; background:#7a0503; color:#fff; padding:6px 19px;}
+.mb>div>a:hover{color:#7a0503; background:#fff; font-weight:bold;}
+.mb>.mb_tab1{ background-image: url(../image/main/mb_1.jpg);}
+.mb>.mb_tab2{background-image: url(../image/main/mb_2.jpg);}
+.mb>.mb_tab3{background-image: url(../image/main/mb_3.jpg);}
+/* E mb_wrap */
+
+.notice_tab, .reservation{position:relative; border:1px solid #e8e8e8; border-radius:10px; margin-right: 27px; width: 273px; height:391px; box-sizing:border-box; padding:29px 15px 42px 30px;}
+.contents1>div>section>h2{text-align:center; font-size:1.2em}
+.tab1{margin:10px 0 0 0px;}
+.tab1>.nav_tab1>a{display:block; float: left; border:1px solid #e8e8e8; padding: 5px 20px; box-sizing:border-box; color:#7a0503;}
+.tab1>.nav_tab1>a:nth-child(1){padding: 5px 26px;}
+.tab1>.nav_tab1>a.on{color:#fff;background:#7a0503;}
+.main_wrap>div>ul>li{margin-top:10px; font-weight:bold; font-family: 'NanumSquareRound',sans-serif;}
+.main_wrap>div>ul>li>span{color:#fff; background:#7a0503; padding:2px 8px;  border-radius:4px;}
+.main_wrap>div>ul>li:nth-child(1)>span,
+.main_wrap>div>ul>li:nth-child(3)>span{padding: 2px 15px;}
+.main_wrap>#main_tab1>ul>li:nth-child(1)>a{letter-spacing: -0.24px;}
+.main_wrap>#main_tab1>ul>li:nth-child(3)>a{letter-spacing: -0.002px;}
+.main_wrap>#main_tab1>ul>li:nth-child(4)>a{letter-spacing: 0.15px;}
+.main_wrap>#main_tab2>ul>li{margin-top:25px;}
+.main_wrap>#main_tab2>ul>li:last-child{margin-bottom:13px;}
+.more_1{position:absolute; bottom:15px; right:12px; color:#7a0503;}
+/* E notice_tab */
+.reservation{width:273px; margin-right:0px; padding-bottom:49px;}
+.menu{display:block; text-align:center;  border:1px solid #e8e8e8; padding: 5px 20px; box-sizing:border-box; color:#fff; margin-top:10px; background:#7a0503;}
+.reservation>ul>li{margin-top:20px; font-weight:bold; font-family: 'NanumSquareRound',sans-serif; white-space:nowrap; overflow:hidden; text-overflow: ellipsis;}
+.reservation>ul>li:last-child{margin-bottom:31px;}
+/* E reservation */
+.gallery{position:relative; margin-top:50px;}
+.gallery>h2{font-size:1.2em; margin-bottom:20px; padding-top:10px; font-weight: bold; font-family: 'NanumSquareRound',sans-serif;}
+.gallery>div{position:relative; float:left;}
+.gallery>div>div{display:none ;position:absolute; bottom:33px; right:0px; border-radius:0 0 10px 10px; width:100%; padding:10px 10px 10px 0px; background:rgb(0,0,0); background:rgba(0,0,0,.4); text-align: right; box-sizing:border-box; z-index: 8000;}
+.gallery>div>div>a{background:#7a0503; color:#fff; padding:5px; box-sizing:border-box;}
+.gallery>div>p{text-align:center; margin-bottom: 10px;}
+.gallery>div:nth-of-type(2){margin:0 27px;}
+.gallery>.more_2{position:absolute; right:10px; top:10px; color:#7a0503;}
+
+/* E contents1 */
+.g_center2{width:1100px; margin:0 auto;}
+.contents2{background:#494949; padding:70px 0;}
+.contents2>div>div{float:left;}
+.contents2>div>div:nth-child(3)~div{margin-top:40px;}
+.sub_video2,.sub_video5{margin-left:89px; margin-right:90px;}
+.contents2>div>div>a{position:relative; display:block;}
+.contents2>div>div>a>div{position:absolute; width:100%; padding:67px 0; box-sizing:border-box; top:0; left:0; text-align: center; background:rgb(0,0,0); background:rgba(0,0,0,.4);}
+.contents2>div>div>a>div>img{border:1px solid #f00; border-radius:40%;}
+.contents2>div p{ color:#fff; font-size:0.8em; text-align:center; font-family: 'NanumSquareRound',sans-serif;}
+.title{margin-top:20px;}
+/* E container */
+
+
+
+
+
+
+
+
+
+
+
+

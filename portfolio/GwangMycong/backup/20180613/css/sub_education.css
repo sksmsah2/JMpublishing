@@ -1,0 +1,14 @@
+@charset "utf-8";
+.sub_visual_inner{background-image:url(../image/sub/visual.jpg);}
+.sub_lnb{margin-left:15px;padding-right:10px;}
+.sub_lnb>li:nth-child(3),
+.sub_lnb>li:nth-child(4){background: url(../image/sub/bullet.gif) no-repeat; background-position:right 20px;}
+.sub_lnb>li.hide{background: none;}
+#container>.content_area{background:url(../image/sub/content_visual.gif) no-repeat right 450px;}
+.content>div{margin-bottom:34px;}
+.content_area p.strapline{font-weight:bold; color:#7a0503; margin-bottom:14px;}
+.content_area p.strapline2{font-size:1.4em; font-weight:bold; color:#7a0503; margin:23px 0;}
+.content_area p{line-height:24px;}
+.service{margin-top:27px; margin-left: 150px; border-left:0; border-right:0;}
+.service th,.service td{border:1px solid #ccc; border-left:0; border-right:0; padding: 25px;}
+.service th{border-bottom:0;}

@@ -1,0 +1,5 @@
+@charset "utf-8";
+.sub_visual_inner{background-image:url(../image/sub/visual2.jpg);}
+.content h3{font-family: 'NanumSquareRound',sans-serif; font-size:2em; color:#7a0503; font-weight:bold;}
+.content p{display:block; line-height: 1.6em; margin-top: 15px; color:#666;}
+.content .strapline{display:block; color:#7a0503; font-weight:bold; line-height: 30px;}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>남양주시자원봉사센터</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/res.css" rel="stylesheet">
+    <link href="image/favicon.ico" rel="shortcut icon">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/common.js"></script>
+    <!--[if lt IE 9]>
+        <script src="js/html5.js"></script>
+        <script src="js/selector.js"></script>
+        <link href="css/ie8.css" rel="stylesheet">
+    <![endif]-->
+</head>
+<body>
+    <div class="skip">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">주메뉴 바로가기</a>
+    </div>
+    <header class="hd n_center n_clear">
+        <h1 class="logo"><a href="#">사)남양주시자원봉사센터</a></h1>
+        <div class="search_wrap">
+            <button>검색창 보기</button>
+            <div class="search">
+                <label class="n_blind" for="keyword">검색창</label>
+                <input type="text" id="keyword">
+                <button>확인</button>
+            </div>
+        </div>
+        <ul class="n_lnb">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">온라인상담</a></li>
+        </ul>
+    </header>
+    <nav class="gnb_wrap">
+        <h2 class="n_blind">주메뉴</h2>
+        <ul id="gnb" class="n_center n_clear">
+            <li>
+                <a href="#">센터소개</a>
+                <ul>
+                    <li><a href="#">인사말</a></li>
+                    <li><a href="#">센터소개</a></li>
+                    <li><a href="#">조직도</a></li>
+                    <li><a href="#">봉사나눔터</a></li>
+                    <li><a href="#">찾아오시는 길</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">자원봉사활동</a>
+                <ul>
+                    <li><a href="#">봉사참여안내</a></li>
+                    <li><a href="#">자원봉사안내</a></li>
+                    <li><a href="#">수요처</a></li>
+                    <li><a href="#">인센티브</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">교 육</a>
+                <ul>
+                    <li><a href="#">교육안내</a></li>
+                    <li><a href="#">착한수요일 교육</a></li>
+                    <li><a href="#">심폐소생술 교육</a></li>
+                    <li><a href="#">온라인 교육</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">커뮤니티</a>
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">봉사이야기</a></li>
+                    <li><a href="#">만나고 왔습니다.</a></li>
+                    <li><a href="#">명예의 전당</a></li>
+                    <li><a href="#">Q&amp;A</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">정보센터</a>
+                <ul>
+                    <li><a href="#">서식자료실</a></li>
+                    <li><a href="#">자원봉사 할인가맹점</a></li>
+                    <li><a href="#">소식지</a></li>
+                    <li><a href="#">언론보도</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <nav class="m_gnb_wrap">
+        <h2 class="n_blind">주메뉴</h2>
+        <button class="m_btn_on"><span>주 메뉴 열기</span></button>
+        <ul id="m_gnb">
+            <li>
+                <span class="on">센터소개</span>
+                <ul class="on">
+                    <li><a href="#">인사말</a></li>
+                    <li><a href="#">센터소개</a></li>
+                    <li><a href="#">조직도</a></li>
+                    <li><a href="#">봉사나눔터</a></li>
+                    <li><a href="#">찾아오시는 길</a></li>
+                </ul>
+            </li>
+            <li>
+                <span>자원봉사활동</span>
+                <ul>
+                    <li><a href="#">봉사참여안내</a></li>
+                    <li><a href="#">자원봉사안내</a></li>
+                    <li><a href="#">수요처</a></li>
+                    <li><a href="#">인센티브</a></li>
+                </ul>
+            </li>
+            <li>
+                <span>교 육</span>
+                <ul>
+                    <li><a href="#">교육안내</a></li>
+                    <li><a href="#">착한수요일 교육</a></li>
+                    <li><a href="#">심폐소생술 교육</a></li>
+                    <li><a href="#">온라인 교육</a></li>
+                </ul>
+            </li>
+            <li>
+                <span>커뮤니티</span>
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">봉사이야기</a></li>
+                    <li><a href="#">만나고 왔습니다.</a></li>
+                    <li><a href="#">명예의 전당</a></li>
+                    <li><a href="#">Q&amp;A</a></li>
+                </ul>
+            </li>
+            <li>
+                <span>정보센터</span>
+                <ul>
+                    <li><a href="#">서식자료실</a></li>
+                    <li><a href="#">자원봉사 할인가맹점</a></li>
+                    <li><a href="#">소식지</a></li>
+                    <li><a href="#">언론보도</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="content">
+        <section class="mb n_center">
+            <h2 class="n_blind">메인배너</h2>
+            <div class="bx">
+                <div class="mb_img1">
+                    <div class="mb_text1">
+                        <h2>
+                            우<span>리</span>
+                            아<span>파트</span>
+                            봉<span>사단</span>
+                            <br>모집중
+                        </h2>
+                        <p>
+                            모집 기간 : 2018-05-01 ~ 2018-07-03<br>
+                            문의 전화) 031-OOOO-OOOO
+                        </p>
+                        <a href="#">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="mb_img2">
+                    <div class="mb_text2">
+                        <h2><span>청소년 자원 봉사</span> 인정가능 수요처 <span>안내</span></h2>
+                        <p>
+                            <span>*학생 자원봉사활동에 대한 세부 지침 변경*</span><br>
+                                1. 노인요양병원 - 사회복지법인 또는 의료법인 등은 인정 가능. 개인이 운영하는 <strong>노인 요양병원은 인정 불가</strong><br>
+                                2. 노인복지시설 - 노인복지법 상 노인복지시설 설치 신고시설은 인정 가능, <strong>노인장기요양 보험법에만 신고된<br>
+                            시설은 인정 불가</strong> (반드시 노인복지시설 설치신고필증 확인)<br>
+                            <span>※ 주야간 보호센터의 경우 반드시 관련서류 확인 필요</span>
+                        </p>
+                        <a href="#">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="mb_img3">
+                    <div class="mb_text3">
+                        <h2>
+                            <span>매월</span> 첫<span>째주</span> 토<span>요일은</span><br>
+                            남양주 클린 자원봉사 하는날
+                        </h2>
+                        <p> 
+                            우리동네는 우리손으로 깨끗하게!<br>
+                            시민 누구나 자원봉사에 쉽게 참여하는 문화조성을 위해<br>
+                            진행되는 남양주 클린 자원봉사에 많은 관심과 신청 바랍니다.</p>
+                        <a href="#">자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu_wrap n_center">
+            <h2 class="n_blind">대표메뉴</h2>
+            <ul class="n_clear">
+                <li>
+                    <a href="#">
+                        <img src="image/icon_join.png" alt="참여">
+                        <p>참여</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/icon_certificate.png" alt="확인서발급">
+                        <p>확인서발급</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/icon_link.png" alt="나이스연계">
+                        <p>나이스연계</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/icon_demand.png" alt="수요처조회">
+                        <p>수요처조회</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/icon_q&a.png" alt="Q&A">
+                        <p>Q&amp;A</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/icon_come.png" alt="찾아오시는길">
+                        <p>찾아오시는길</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/icon_discount.png" alt="할인가맹점">
+                        <p>할인가맹점</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/icon_honor.png" alt="명예의 전당">
+                        <p>명예의 전당</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="article_board n_clear n_center">
+            <article class="notice">
+                <h2>공지사항</h2>
+                <ul>
+                    <li>
+                        <span>2018-06-20</span>
+                        <a href="#">사)남양주시자원봉사센터 사원 및 대체인력 채용 서류합격자 발표 및 면접시험 안내</a>
+                    </li>
+                    <li>
+                        <span>2018-06-08</span>
+                        <a href="#">사)남양주시자원봉사센터 계약직 사원 및 대체근로자 공개모집 공고</a>
+                    </li>
+                    <li>
+                        <span>2018-06-04</span>
+                        <a href="#"><span>모집중</span>&lt;6월 자원봉사자 모집!!&gt;</a>
+                    </li>
+                    <li>
+                        <span>2018-06-01</span>
+                        <a href="#">2018해외자원봉사 지구촌동행-베트남 대행여행사 선정 결과공고</a>
+                    </li>
+                    <li>
+                        <span>2018-05-29</span>
+                        <a href="#"><span>모집마감</span>2019 광주세계수영선수권대회 자원봉사자 모집</a>
+                    </li>
+                </ul>
+                <a href="#" class="more">more</a>
+            </article>
+            <article class="education">
+                <h2>착한수요일 교육신청</h2>
+                <ul>
+                    <li>
+                        <span>2018-06-20</span>
+                        <a href="#"><span>모집중</span>[착한 수요일 7월 2주] 사회복지일감"신나고 재미있는 노인운동지도"배워서 나눔활동</a>
+                    </li>
+                    <li>
+                        <span>2018-06-08</span>
+                        <a href="#"><span>모집중</span>[착한 수요일 7월 1주] 사회복지일감"신나고 재미있는 노인운동지도"배워서 나눔활동</a>
+                    </li>
+                    <li>
+                        <span>2018-06-04</span>
+                        <a href="#"><span>모집마감</span>[착한 수요일 5월 4주] 멋진만남 자원봉사 기본교육 안내</a>
+                    </li>
+                    <li>
+                        <span>2018-05-08</span>
+                        <a href="#"><span>모집마감</span>[착한 수요일 5월 3주] 내 손안의 '4분의 기적' 심폐소생술 교육</a>
+                    </li>
+                    <li>
+                        <span>2018-04-18</span>
+                        <a href="#"><span>모집마감</span>[착한수요일 5월 2주] 사회복지일감</a>
+                    </li>
+                </ul>
+                <a href="#" class="more">more</a>
+            </article>
+        </div>
+        <div class="gesinnung_wrap">
+            <div class="gesinnung_area">
+                <div class="gesinnung n_center">
+                    <p>신나게 봉사하는 것이 우리에겐 노는 것!</p>
+                </div>
+            </div>
+        </div>
+        <section class="sns_wrap">
+            <h2 class="n_blind">소셜 링크메뉴</h2>
+            <ul class="sns n_center n_clear">
+                <li><a target="_blank" href="https://blog.naver.com/nyjvc1365"><img src="image/naver.png" alt="남양주시자원봉사센터 네이버블로그"></a></li>
+                <li><a target="_blank" href="http://cafe.daum.net/nyjvc5951365"><img src="image/daum.jpg" alt="남양주시자원봉사센터 다음카페"></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/nyjvc1365"><img src="image/facebook.png" alt="남양주시자원봉사센터 페이스북"></a></li>
+                <li><a target="_blank" href="https://www.1365.go.kr/"><img src="image/1365.png" alt="1365 자원봉사"></a></li>
+                <li><a target="_blank" href="http://www.nyj.go.kr/"><img src="image/namyongju.jpg" alt="쾌한도시 남양주"></a></li>
+            </ul>
+        </section>
+        <section class="m_sns_wrap">
+            <h2 class="n_blind">소셜 링크메뉴</h2>
+            <ul class="m_sns n_center n_clear">
+                <li><a target="_blank" href="https://blog.naver.com/nyjvc1365"><img src="image/icon_naver.png" alt="남양주시자원봉사센터 네이버블로그"></a></li>
+                <li><a target="_blank" href="http://cafe.daum.net/nyjvc5951365"><img src="image/icon_daum.png" alt="남양주시자원봉사센터 다음카페"></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/nyjvc1365"><img src="image/icon_fb.png" alt="남양주시자원봉사센터 페이스북"></a></li>
+                <li><a target="_blank" href="https://www.1365.go.kr/"><img src="image/icon_1365.png" alt="1365 자원봉사"></a></li>
+                <li><a target="_blank" href="http://www.nyj.go.kr/"><img src="image/icon_nam.png" alt="쾌한도시 남양주"></a></li>
+            </ul>
+        </section>
+    </div>
+    <footer class="ft_wrap">
+        <div class="ft n_center n_clear">
+            <img src="image/logo_bottom.png" alt="사)남양주시자원봉사센터">
+            <div class="ft_info">
+                <ul class="site_info">
+                    <li><a href="#">남양주시자원봉사센터소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">찾아오시는길</a></li>
+                </ul>
+                    <address class="addr">
+                        (사)남양주시자원봉사센터 / 고유등록번호 : 132-82-07664 주소 : 경기도 남양주시 경춘로 883-36(금곡동)<br class="m_n_blind">
+                        TEL : 031-595-1365 / FAX : 03030-953-1365 / nyjvc1365@hanmail.net
+                    </address>
+                    <small class="copy">
+                        본 사이트는 포트폴리오 용도로 제작된 가상의 사이트입니다.  모든 콘텐츠의 저작권은 (사)남양주시자원봉사센터와 해당사에 있음을 밝힙니다.<br>
+                        Design &amp; Publishing by 김정민
+                    </small>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>

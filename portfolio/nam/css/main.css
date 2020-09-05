@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* content */
+#content{margin-top:30px;}
+.bx>div{height:680px;}
+.bx>div h2{font-size:3em; font-weight:bold;}
+.bx>div h2>span{font-size:0.833em; font-weight:normal;}
+.bx>div p{font-size:1.667em; margin-top: 20px; margin-bottom:50px;}
+.bx>div a{padding: 15px 25px; border:1px solid #ccc; background:#f36; font-size:2em; color:#fff;}
+.mb_img1{background:url(../image/mb1.jpg);}
+.mb_img2{background:url(../image/mb2.jpg);}
+.mb_img3{background:url(../image/mb3.jpg);}
+.mb_text1{position:absolute; bottom:160px; right:60px; color:#ff3366; text-align:right;}
+.bx .mb_text1>p{font-size:1.5em; color:#333;}
+.mb_text2{position:absolute; top:40%; left:330px; color:#ff3366;}
+.mb_text2>h2>span{color:#b52649;}
+.bx .mb_text2>p{font-size:1.5em; color:#d84c2f;}
+.mb_text2>p>span:nth-child(1){color:#ff421b;}
+.mb_text2>p>span:nth-child(3){color:#ff3366;}
+.mb_text3{position:absolute; top:60px; left:100px; color:#ff3366;}
+.menu_wrap>ul{border:1px solid #ccc;}
+.menu_wrap>ul>li{float:left; width:149.7px; padding-top:15px; border-right:1px solid #ccc; text-align:center; box-sizing:border-box;}
+.menu_wrap>ul>li:last-child{border:none;}
+.menu_wrap>ul>li p{margin:5px 0; font-size:1.333em;}
+.article_board>article{position:relative; margin-top: 60px; margin-bottom:60px;width: 400px;  box-sizing:border-box;margin-right:50px; margin-left:50px;}
+.notice{float:left; }
+.education{float: right;}
+.article_board>article>h2{font-size:1.667em; border-bottom:1px solid #ccc;}
+.article_board>article>ul>li{margin-top:15px; padding-right:20px;}
+.article_board>article li>span{padding-left:20px; padding-right: 20px;}
+.article_board>article li{white-space:nowrap; overflow:hidden; text-overflow: ellipsis;}
+.article_board>article>a{position:absolute; top:10px; right:10px;}
+.article_board>article a>span{margin-right:5px; background:#f36; color:#fff; padding:2px; border-radius:5px;}
+.gesinnung_wrap{width:100%;height:464px; position:relative; margin-bottom:60px;}
+.gesinnung_area{position:absolute; width:100%; height:100%; left:0px; top:0px; background:url(../image/mb.jpg) repeat-x center -30px fixed; background-size:cover;}
+.gesinnung{font-size:3em; color:#fff; text-align:center; margin-top: 196px;}
+.sns_wrap>.sns{border:1px solid #ccc;}
+.sns_wrap>.sns>li{border-right:1px solid #ccc; float:left; width:239px; width:calc(20% - 1px);}
+.sns_wrap>.sns>li:nth-child(5){border:none;}

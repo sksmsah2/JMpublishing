@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.video{box-sizing:border-box; ;margin-bottom: 20px;}
+.video iframe{display:none;}
+.video a{display:block; width:974px; height:547px; background:url(../image/main/ke.jpg) no-repeat;}
+.video>a>div{position:absolute; width:100%; padding:67px 0; box-sizing:border-box; top:0; left:0; text-align: center; background:rgb(0,0,0); background:rgba(0,0,0,.4);}
+.sub_viedo1>a>div>img, .sub_viedo2>a>div>img, .sub_viedo3>a>div>img{border:1px solid #f00; border-radius:17px;}
