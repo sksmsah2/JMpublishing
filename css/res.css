@@ -34,22 +34,23 @@
     html, body{height:initial;}
     .m_blind,.m_k_dot_wrap{display:block;}
     .m_blind{text-align: center; display: block; font-size: 18px; margin-bottom: 20px;}
-    div>section{position:static; width: 100%; height:initial; transform:none; padding-top:20px;}
+    div>section{position:static; width: 100%; height:initial; transform:none; padding:50px 15px;}
+    div>section>h2{font-size:60px;}
     #intro, #about, #skill, #portfolio, #contact{overflow:visible;}
-    #intro>section>h2{font-size:14px;}
-    #intro>section>span{position:absolute; top:50%; left:50%; transform:translateY(-50%) translateX(-50%); margin:0px; font-size:18px;}
-    #intro>section>p{font-size: 14px;}
+    #intro>section>h2{font-size: 18px;}
+    #intro>section>span{position:absolute; top:50%; left:50%; transform:translateY(-50%) translateX(-50%); margin:0px; font-size:25px;}
+    #intro>section>p{font-size: 15px;}
     #about>section{text-align:center;}
-    #about>section>img{width:85%; float: none; margin: 0 auto;}
-    #contact>section{height:initial; width:initial;}
+    #about>section>img{width:100%; float: none; margin: 20px auto;}
+    #contact>section{height:initial; width:initial; padding-top:50px; padding-bottom:50px;}
     #contact>section>h2{position:static; transform:none; letter-spacing:normal;}
     #skill>section{min-height:600px;}
     .about_content{margin-top:0px;}
-    .about_content>li{float: none;width: inherit; margin-bottom:10px;}
+    .about_content>li{float: none;width: inherit;}
     .about_content>li:nth-child(1){margin-top: 20px;}
     .about_content>li:nth-child(1)~li>p{float:left;}
     .about_content>li:nth-child(1)~li>p:nth-child(1){margin-right: 30px;}
-    .about_content>li>p{line-height:30px;font-size: 12px; margin-left:0; text-align: left;}
+    .about_content>li>p{line-height:30px; font-size: 12px; margin-left:0; text-align: left; margin-bottom:15px;}
     .about_content>li>p>span{font-size: 15px;}
     .pie_wrap{display: none;}
     .pie-skill{top:26px;}
@@ -68,6 +69,7 @@
     .contact_wrap table td.align_top{height:120px;}
     .td_box{width:70%; font-size: 12px;}
     .contact_wrap .agree{width: 20px; font-size:12px;}
+    .info_agree{padding:20px;}
 }
 @keyframes intro2{
     0%{bottom:-50px;}

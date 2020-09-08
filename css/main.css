@@ -42,7 +42,6 @@ div>section>h2{text-align:center; font-size:40px; color:#333;}
 #portfolio ul>li>a:nth-of-type(2){margin:0 20px;}
 #portfolio .k_pofol{position:relative; margin-top:9%;}
 #portfolio .k_pofol>li{position:absolute; width:32%; bottom:-1000px;}
-/* -208.5px */
 #portfolio .k_pofol>li:nth-child(1){transition:.7s;}
 #portfolio .k_pofol>li:nth-child(2){left:33%; transition:.7s 0.5s;}
 #portfolio .k_pofol>li:nth-child(3){left:66%; transition:.7s 1s;}
@@ -57,7 +56,7 @@ div>section>h2{text-align:center; font-size:40px; color:#333;}
 #portfolio ul>li>p{padding-left:40px; margin-bottom:20px; line-height:33px; font-size:16px;}
 #portfolio ul>li p>span{display:block; font-weight:bold;}
 #portfolio ul>li p>.k_red{display:inline;}
-
+ 
 .k_gw_nam_on ul>li:nth-child(1){text-align: center;}
 #overay{position:fixed; width:100%; height:100%; left:0; top:0; background:rgba(0,0,0,.7);z-index:800}
 .btn_close{position: absolute; bottom: 50px; right: 50px; width: 28px; height: 28px; background: url(../img/btn_close.png) no-repeat center center; text-indent: -9999em;  border: none;}
@@ -70,8 +69,7 @@ div>section>h2{text-align:center; font-size:40px; color:#333;}
 .k_input{width: 75%;}
 .k_input input{box-sizing: border-box; height: 30px; width: 100%; font-size: 15px; background: rgba(255,255,255,0.2); border: 1px solid #ccc;}
 #contact tr{margin-bottom:20px;}
-.contact_wrap>h2{ text-align:center; margin:0 0 20px 0; color:#777;}
-.contact_wrap h3{ text-align: center; font-size: 30px; color: #fff; margin-bottom:10px;}
+.contact_wrap h2{ text-align:center; margin:0 0 20px 0; color:#FFF; }
 .contact_wrap table{width:100%; color:#555; font-size:1.1em;}
 .contact_wrap table td{height:50px;}
 .contact_wrap input{border:1px solid #ccc; color:#666;}
