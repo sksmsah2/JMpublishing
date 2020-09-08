@@ -56,6 +56,8 @@ div>section>h2{text-align:center; font-size:40px; color:#333;}
 #portfolio .k_sam_on ul>li>a:nth-of-type(4){margin-right:0; margin-left:2%}
 #portfolio ul>li>p{padding-left:40px; margin-bottom:20px; line-height:33px; font-size:16px;}
 #portfolio ul>li p>span{display:block; font-weight:bold;}
+#portfolio ul>li p>.k_red{display:inline;}
+
 .k_gw_nam_on ul>li:nth-child(1){text-align: center;}
 #overay{position:fixed; width:100%; height:100%; left:0; top:0; background:rgba(0,0,0,.7);z-index:800}
 .btn_close{position: absolute; bottom: 50px; right: 50px; width: 28px; height: 28px; background: url(../img/btn_close.png) no-repeat center center; text-indent: -9999em;  border: none;}

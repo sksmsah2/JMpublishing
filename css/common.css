@@ -7,6 +7,7 @@ a:hover,a:focus{color:#fff;}
 .k_center{max-width:1200px; margin:0 auto;}
 .k_clear:after{content:''; display:block; clear:both;}
 .k_bold{font-weight:bold;}
+.k_red{color:#f00;}
 img{vertical-align:top;}
 html, body{height:100%;}
 .m_blind,.m_k_dot_wrap{display:none;}
