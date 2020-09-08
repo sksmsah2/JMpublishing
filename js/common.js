@@ -123,7 +123,7 @@ $(function(){
             $storyWrapSpan.eq(1).removeClass("on");
             $(".k_logo").css({animation:"none"}).animate({opacity:"1"});
             portfolioRestore();
-        }else if(scT>=off3 && scT<=off4){
+        }else if(scT>=off3 && scT<=off4-5){
             $kGnbLi.eq(2).addClass('on');
             $('.m_k_dot_wrap>li').eq(2).addClass('on');
             $kLine.addClass("on2"); 
@@ -137,8 +137,8 @@ $(function(){
             $(".k_logo").css({animation:"none"}).animate({opacity:"1"});
             portfolioAnimate();
         }else{
-            $kGnbLi.eq(4).addClass('on');
-            $('.m_k_dot_wrap>li').eq(4).addClass('on');
+            $kGnbLi.eq(3).addClass('on');
+            $('.m_k_dot_wrap>li').eq(3).addClass('on');
             $kLine.addClass("on3");
             for(var l = 0; l<5; l++){
                 $storyWrapSpan.eq(l).removeClass("on");
