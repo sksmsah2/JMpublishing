@@ -41,7 +41,7 @@ div>section>h2{text-align:center; font-size:40px; color:#333;}
 #portfolio ul>li>a{display:inline-block; margin-top: 30px; line-height:50px; width:30%; text-align:center; background:#aaa; color:#fff; font-size:16px; font-weight:bold;}
 #portfolio ul>li>a:nth-of-type(2){margin:0 20px;}
 #portfolio .k_pofol{position:relative; margin-top:9%;}
-#portfolio .k_pofol>li{position:absolute; width:32%; bottom:-650px;}
+#portfolio .k_pofol>li{position:absolute; width:32%; bottom:-1000px;}
 /* -208.5px */
 #portfolio .k_pofol>li:nth-child(1){transition:.7s;}
 #portfolio .k_pofol>li:nth-child(2){left:33%; transition:.7s 0.5s;}

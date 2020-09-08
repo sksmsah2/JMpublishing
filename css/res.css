@@ -55,7 +55,7 @@
     .pie-skill{top:26px;}
     .pie-value{top:50%;}
     #portfolio .k_pofol>li{position:static; width: 100%}
-    #portfolio .m_blind:nth-child(2){display:none;}
+    #portfolio .m_blinds:nth-child(2){display:none;}
     #portfolio .m_size>li{width: 100%;;}
     #portfolio .m_size>li>a{width:100%; font-size:12px; margin-top: 20px;}
     #portfolio .m_size>li>a:nth-of-type(2){margin:0; margin-top:20px;}
