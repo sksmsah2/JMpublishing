@@ -7,47 +7,61 @@ $(function(){
     var  $storyWrapSpan =$(".story_wrap>span");
     var off1=$("#intro").offset().top;
     var off2=$("#about").offset().top-1;
-    var off3=$("#skill").offset().top-1;
-    var off4=$("#portfolio").offset().top-1;
-    var off5=$("#contact").offset().top-1;
+    var off3=$("#portfolio").offset().top-1;
+    var off4=$("#contact").offset().top-1;
     
     new TypeIt('.type-it', {
         strings: 'KIM JUNG MIN',
         speed: 250
     });
-    $(".owl-carousel").owlCarousel({
-    items:2,
-    loop:true,
-    center:true,
-//	mouseDrag:false,
-	nav:true,
-    responsive:{
-        0:{items:1},
-        1260:{
-            items:2
-        }
-    }
-	});
     
-    $(".detail").click(function(){
-        var dataName="."+$(".owl-stage>.center").children("div").attr("data-name");
-        console.log(dataName);
-        $(dataName).stop().fadeIn(500);
+    $(".k_nam a").click(function(){
+        $(".k_nam_on").stop().fadeIn(500);
         $("#portfolio").append('<div id="overay"></div>');
         $("#overay").stop().hide().fadeIn(500);
         $("#k_hd").css({zIndex:800});
         $("#portfolio>div, .btn_close").click(function(){
             $("#portfolio>div").stop().fadeOut(500,function(){
                 $("#portfolio>div").remove();
+                $("#k_hd").css({zIndex:9000});
             });
-            $(dataName).stop().fadeOut(500);
+            $(".k_nam_on").stop().fadeOut(500);
         });
     });
+    
+    $(".k_gw a").click(function(){
+        $(".k_gw_on").stop().fadeIn(500);
+        $("#portfolio").append('<div id="overay"></div>');
+        $("#overay").stop().hide().fadeIn(500);
+        $("#k_hd").css({zIndex:800});
+        $("#portfolio>div, .btn_close").click(function(){
+            $("#portfolio>div").stop().fadeOut(500,function(){
+                $("#portfolio>div").remove();
+                $("#k_hd").css({zIndex:9000});
+            });
+            $(".k_gw_on").stop().fadeOut(500);
+        });
+    });
+
+    $(".k_sam a").click(function(){
+        $(".k_sam_on").stop().fadeIn(500);
+        $("#portfolio").append('<div id="overay"></div>');
+        $("#overay").stop().hide().fadeIn(500);
+        $("#k_hd").css({zIndex:800});
+        $("#portfolio>div, .btn_close").click(function(){
+            $("#portfolio>div").stop().fadeOut(500,function(){
+                $("#portfolio>div").remove();
+                $("#k_hd").css({zIndex:9000});
+            });
+            $(".k_sam_on").stop().fadeOut(500);
+        });
+    });
+
     console.log(off1);
     console.log(off2);
     console.log(off3);
     console.log(off4);
-    console.log(off5);
+
     $("#k_gnb a").click(function(){
         var path=$(this).attr("href");
         var off=$(path).offset().top; 
@@ -65,8 +79,20 @@ $(function(){
     $(window).scroll(function(){
         sct1();
     });
+    
+    function portfolioAnimate(){
+        $('#portfolio .k_pofol>li:nth-child(1)').addClass("on");
+        $('#portfolio .k_pofol>li:nth-child(2)').addClass("on");
+        $('#portfolio .k_pofol>li:nth-child(3)').addClass("on");
+    };
 
-sct1();
+    function portfoliorestore(){
+        $('#portfolio .k_pofol>li:nth-child(1)').removeClass("on");
+        $('#portfolio .k_pofol>li:nth-child(2)').removeClass("on");
+        $('#portfolio .k_pofol>li:nth-child(3)').removeClass("on");
+    };
+
+    sct1();
     function sct1(){
         scT=$(window).scrollTop();
         winH = $(window).height();
@@ -79,12 +105,12 @@ sct1();
             $kLine.removeClass("on1");
             $kLine.removeClass("on2");
             $kLine.removeClass("on3");
-            $kLine.removeClass("on4");
             for(var i = 0; i<5; i++){
                 $storyWrapSpan.eq(i).addClass("on");
             }
             $storyWrapSpan.eq(0).css({animation:"none"}).removeClass("on");
             $(".k_logo").css({animation:"none"}).animate({opacity:"1"});
+            portfoliorestore();
         }else if(scT>=off2 && scT<=off3){
             $kGnbLi.eq(1).addClass('on');
             $('.m_k_dot_wrap>li').eq(1).addClass('on');
@@ -96,12 +122,12 @@ sct1();
             $storyWrapSpan.eq(0).css({animation:"none"}).removeClass("on");
             $storyWrapSpan.eq(1).removeClass("on");
             $(".k_logo").css({animation:"none"}).animate({opacity:"1"});
+            portfoliorestore();
         }else if(scT>=off3 && scT<=off4){
             $kGnbLi.eq(2).addClass('on');
             $('.m_k_dot_wrap>li').eq(2).addClass('on');
-            $kLine.addClass("on2");
+            $kLine.addClass("on2"); 
             $kLine.removeClass("on3");
-            $kLine.removeClass("on4");
             for(var k = 0; k<5; k++){
                 $storyWrapSpan.eq(k).addClass("on");
             }
@@ -109,26 +135,17 @@ sct1();
             $storyWrapSpan.eq(1).removeClass("on");
             $storyWrapSpan.eq(2).removeClass("on");
             $(".k_logo").css({animation:"none"}).animate({opacity:"1"});
-        }else if(scT>=off4 && scT<=off5){
-            $kGnbLi.eq(3).addClass('on');
-            $('.m_k_dot_wrap>li').eq(3).addClass('on');
-            $kLine.addClass("on3");
-            $kLine.removeClass("on4");
-            $storyWrapSpan.eq(0).css({animation:"none"}).removeClass("on");
-            $storyWrapSpan.eq(1).removeClass("on");
-            $storyWrapSpan.eq(2).removeClass("on");
-            $storyWrapSpan.eq(3).removeClass("on");
-            $storyWrapSpan.eq(4).addClass("on");
-            $(".k_logo").css({animation:"none"}).animate({opacity:"1"});
+            portfolioAnimate();
         }else{
             $kGnbLi.eq(4).addClass('on');
             $('.m_k_dot_wrap>li').eq(4).addClass('on');
-            $kLine.addClass("on4");
+            $kLine.addClass("on3");
             for(var l = 0; l<5; l++){
                 $storyWrapSpan.eq(l).removeClass("on");
             }
             $(".story_wrap>span").eq(0).css({animation:"none"}).removeClass("on");
             $(".k_logo").css({animation:"none"}).animate({opacity:"1"});
+            portfoliorestore();
         };
         
         if(scT >= winH - winH*0.8){

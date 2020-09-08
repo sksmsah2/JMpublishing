@@ -6,6 +6,7 @@ a:hover,a:focus{color:#fff;}
 .k_blind{position:absolute;left:-9999em;}
 .k_center{max-width:1200px; margin:0 auto;}
 .k_clear:after{content:''; display:block; clear:both;}
+.k_bold{font-weight:bold;}
 img{vertical-align:top;}
 html, body{height:100%;}
 .m_blind,.m_k_dot_wrap{display:none;}
@@ -16,26 +17,20 @@ html, body{height:100%;}
 #k_hd{position: fixed; top:25px ; left: 0; width: 100%; height: 160px; z-index: 9000;}
 .k_logo{position:absolute; left:0.5%; top:-90px; margin-left:-40px; background:url(../img/logo.png) no-repeat center center; width:46px; height:84px; text-indent:-9999em; z-index:9999; opacity:0; animation-name:a2; animation-duration:2s; animation-delay: 1.5s; animation-fill-mode: forwards; transition:.7s;}
 .k_gnb_wrap{position:relative;}
-.k_line{position:absolute; top:95px; width:1100px; height:2px; background:#000; margin-left:50px; z-index:100;}
-.k_line.on1>.k_logo{left:25%;}
-.k_line.on2>.k_logo{left:50%;}
-.k_line.on3>.k_logo{left:75%;}
-.k_line.on4>.k_logo{left:100%;}
+.k_line{position:absolute; top:95px; width:1099.9px; height:2px; background:#000; margin-left:50px; z-index:100;}
+.k_line.on1>.k_logo{left:33.5%;}
+.k_line.on2>.k_logo{left:66.6%;}
+.k_line.on3>.k_logo{left:100%;}
 
-.k_dot_wrap>li{float:left; width:10px; height:10px; background:#000; border-radius:50%; text-indent:-9999em; margin-right: 262.5px; margin-top:-4px;}
-.k_dot_wrap>.k_dot5{margin-right:0px;}
-.story_wrap{position:absolute; top:-70px; left:2px; width:100%;}
-.story_wrap>span{margin-right:250.8px; font-size:26px; color:#fff; transition: .7s; opacity: 0;}
-.story_wrap>span.on{opacity:1;}
-.story_wrap>.story1{animation:a1 2s 2s; animation-fill-mode: forwards;}
-.story_wrap>.story5{margin-right:0px;}
+.k_dot_wrap>li{float:left; width:10px; height:10px; background:#000; border-radius:50%; text-indent:-9999em; margin-right: 353.3px; margin-top:-4px;}
+.k_dot_wrap>.k_dot4{margin-right:0px;}
 #k_gnb{position:absolute; left:35px; top:110px; z-index:100;}
-#k_gnb>li{float:left; margin-right: 234px;}
+#k_gnb>li{float:left; margin-right: 323px;}
 #k_gnb>li>a{font-size:16px; transition:.6s;}
 #k_gnb>li.on>a{color:#fff;}
-#k_gnb>li:nth-child(3){margin-right: 234px;}
-#k_gnb>li:nth-child(4){margin-right: 205px;}
-#k_gnb>li:nth-child(5){margin-right:0px;}
+#k_gnb>li:nth-child(2){margin-right : 311px;}
+#k_gnb>li:nth-child(3){margin-right : 299px;}
+#k_gnb>li:nth-child(4){margin-right : 0px;}
 
 @keyframes a1{
     0%{opacity:1;}
