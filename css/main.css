@@ -62,7 +62,7 @@ div>section>h2{text-align:center; font-size:40px; color:#333;}
 .btn_close{position: absolute; bottom: 50px; right: 50px; width: 28px; height: 28px; background: url(../img/btn_close.png) no-repeat center center; text-indent: -9999em;  border: none;}
 
 #contact{background-image:url(../img/bg5.jpg);}
-#contact>section{background:#362f2d; width: 563px; height:591px; border-radius:20px; top: 60%; padding-top:17px; padding-bottom:17px;}
+#contact>section{background:#362f2d; width: 563px; height:591px; border-radius:20px; top: 60%; padding-top:40px;}
 #contact>section>h2{position:absolute; left:50%; transform:translateX(-50%); top:-15%; color: #fff; letter-spacing:0.2em;}
 #contact legend{text-align: center; font-size: 30px; color:#fff;}
 .k_label{color:#fff; width: 25%;}
@@ -72,11 +72,12 @@ div>section>h2{text-align:center; font-size:40px; color:#333;}
 .contact_wrap h2{ text-align:center; margin:0 0 20px 0; color:#FFF; }
 .contact_wrap table{width:100%; color:#555; font-size:1.1em;}
 .contact_wrap table td{height:50px;}
+.contact_wrap table tr:nth-child(4)>.td_label{vertical-align:top; padding-top:12.5%;}
 .contact_wrap input{border:1px solid #ccc; color:#666;}
-.td_label{width:20%; vertical-align: middle; color:#fff;}
-.td_box{width:80%;}
-.td_box input{box-sizing:border-box; height:35px; width:100%;}
-.td_box textarea{box-sizing:border-box; width:100%; height:150px; margin:5px 0; text-align:left; border:1px solid #ccc;}
+.td_label{width:20%; color:#fff;}
+.td_box{width:80%; padding-bottom: 10px;}
+.td_box input{box-sizing:border-box; height:35px; width:100%; padding:20px 10px;}
+.td_box textarea{box-sizing:border-box; width:100%; height:150px; padding:10px; text-align:left; border:1px solid #ccc;}
 .info_agree{overflow:auto; box-sizing:border-box; width:100%; height:100px; padding:10px; margin:5px 0; border:1px solid #ccc; color:#fff;}
 .contact_wrap .agree{text-align:center; height:35px; color: #fff;}
 .agree>input, .agree>label{border:none; vertical-align:middle;}
