@@ -30,21 +30,21 @@
 }
 
 @media screen and (max-width:767px){
+    #k_hd{height:initial;}
     #k_gnb,.k_line{display: none;}
     html, body{height:initial;}
     .m_blind,.m_k_dot_wrap{display:block;}
     .m_blind{text-align: center; display: block; font-size: 18px; margin-bottom: 20px;}
-    div>section{position:static; width: 100%; height:initial; transform:none; padding:50px 15px;}
-    div>section>h2{font-size:60px;}
+    div>section{position:static; width: 100%; height:initial; transform:none; padding-top:50px; padding-bottom:50px;}
     #intro, #about, #skill, #portfolio, #contact{overflow:visible;}
     #intro>section>h2{font-size: 18px;}
     #intro>section>span{position:absolute; top:50%; left:50%; transform:translateY(-50%) translateX(-50%); margin:0px; font-size:25px;}
     #intro>section>p{font-size: 15px;}
     #about>section{text-align:center;}
     #about>section>img{width:100%; float: none; margin: 20px auto;}
-    #contact>section{height:initial; width:initial; padding-top:50px; padding-bottom:50px;}
+    #portfolio>section{padding-left:15px; padding-right:15px;}
+    #contact>section{height:initial; width:initial; padding:50px 15px;}
     #contact>section>h2{position:static; transform:none; letter-spacing:normal;}
-    #skill>section{min-height:600px;}
     .about_content{margin-top:0px;}
     .about_content>li{float: none;width: inherit;}
     .about_content>li:nth-child(1){margin-top: 20px;}
@@ -65,11 +65,13 @@
     .k_nam_on, .k_sam_on, .k_gw_on{position: fixed; padding-top: 20px;}
     .k_gw_on img,.k_nam_on img,.k_sam_on img{width:80%}
     .btn_close{bottom:30px;}
-    .td_label{width: 30%; font-size:11px;}
+    .td_label{display:none;}
     .contact_wrap table td.align_top{height:120px;}
-    .td_box{width:70%; font-size: 12px;}
+    .td_box{width:70%; padding-bottom:10px; font-size: 12px;}
+    .td_box input{padding:20px 10px;}
+    .td_box textarea{padding:10px 10px; margin:0;}
     .contact_wrap .agree{width: 20px; font-size:12px;}
-    .info_agree{padding:20px;}
+    .info_agree{padding:15px;}
 }
 @keyframes intro2{
     0%{bottom:-50px;}
