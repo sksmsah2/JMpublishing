@@ -29,8 +29,8 @@ html, body{height:100%;}
 #k_gnb>li{float:left; margin-right: 323px;}
 #k_gnb>li>a{font-size:16px; transition:.6s;}
 #k_gnb>li.on>a{color:#fff;}
-#k_gnb>li:nth-child(2){margin-right : 311px;}
-#k_gnb>li:nth-child(3){margin-right : 299px;}
+#k_gnb>li:nth-child(2){margin-right : 300px;}
+#k_gnb>li:nth-child(3){margin-right : 280px;}
 #k_gnb>li:nth-child(4){margin-right : 0px;}
 
 @keyframes a1{
