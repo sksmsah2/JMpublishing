@@ -37,9 +37,9 @@
     .m_blind{text-align: center; display: block; font-size: 18px; margin-bottom: 20px;}
     div>section{position:static; width: 100%; height:initial; transform:none; padding-top:50px; padding-bottom:50px;}
     #intro, #about, #skill, #portfolio, #contact{overflow:visible;}
-    #intro>section>h2{font-size: 18px;}
-    #intro>section>span{position:absolute; top:50%; left:50%; transform:translateY(-50%) translateX(-50%); margin:0px; font-size:25px;}
-    #intro>section>p{font-size: 15px;}
+    #intro>section>h2{font-size: 25px;}
+    #intro>section>span{position:absolute; top:50%; left:50%; transform:translateY(-50%) translateX(-50%); margin:0px; font-size:30px; width:100%;}
+    #intro>section>p{font-size: 20px; width:100%;}
     #about>section{text-align:center;}
     #about>section>img{width:100%; float: none; margin: 20px auto;}
     #portfolio>section{padding-left:15px; padding-right:15px;}
@@ -70,8 +70,12 @@
     .td_box{width:70%; padding-bottom:10px; font-size: 12px;}
     .contact_wrap .agree{width: 20px; font-size:12px;}
     .info_agree{padding:15px;}
-}
-@keyframes intro2{
-    0%{bottom:-50px;}
-    100%{bottom:30%;}
+    @keyframes intro1{
+        0%{top:-50px;}
+        100%{top:25%;}
+    }
+    @keyframes intro2{
+        0%{bottom:-50px;}
+        100%{bottom:25%;}   
+    ㅌ  }
 }
